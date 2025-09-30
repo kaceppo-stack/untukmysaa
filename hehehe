@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title> untukk mu ratu Meysaa Putri Yulianti</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    :root{--bg:#0f172a;--card:#0b1220;--accent:#ff6b81;--muted:#9aa4b2}
+    *{box-sizing:border-box}
+    body{font-family:'Poppins',system-ui,Segoe UI,Roboto,'Helvetica Neue',Arial; margin:0;background:linear-gradient(180deg,#071022 0%, #0e1b2b 100%);color:#e6eef8;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:24px}
+    .wrap{width:100%;max-width:920px}
+    header{display:flex;gap:16px;align-items:center;margin-bottom:18px}
+    .avatar{width:72px;height:72px;border-radius:14px;background:linear-gradient(135deg,#ff9bb3,#ff6b81);display:flex;align-items:center;justify-content:center;font-weight:700;color:#20101a}
+    h1{font-size:20px;margin:0}
+    p.lead{margin:0;color:var(--muted);font-size:13px}
+    .grid{display:grid;grid-template-columns:1fr 320px;gap:18px;margin-top:18px}
+    .card{background:rgba(255,255,255,0.03);padding:18px;border-radius:12px;box-shadow:0 6px 18px rgba(2,6,23,0.6)}
+    .poem{padding:14px;border-radius:10px;background:linear-gradient(180deg,rgba(255,255,255,0.02),transparent);margin-bottom:12px}
+    .poem h3{margin:0 0 6px 0;font-size:16px}
+    .poem p{margin:0;line-height:1.45;font-size:15px}
+    .meta{display:flex;gap:8px;margin-top:8px;color:var(--muted);font-size:13px}
+    button{background:var(--accent);border:none;color:white;padding:10px 12px;border-radius:10px;cursor:pointer;font-weight:600}
+    .muted-btn{background:transparent;border:1px solid rgba(255,255,255,0.06);color:var(--muted)}
+    textarea{width:100%;height:140px;padding:12px;border-radius:10px;border:none;background:rgba(255,255,255,0.02);color:inherit;resize:vertical}
+    .small{font-size:13px;color:var(--muted)}
+    footer{margin-top:12px;color:var(--muted);font-size:13px;text-align:center}
+    @media (max-width:880px){.grid{grid-template-columns:1fr;}.card{padding:14px}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="avatar">MP</div>
+      <div>
+        <h1>untuk Meysaa Putri Yulianti</h1>
+        <p class="lead">MEYSA PUTRI YULIANTI &amp; untuk wanitaa favorit kuuu.</p>
+      </div>
+    </header>
+
+    <div class="grid">
+      <div class="card" id="poemsList">
+        <!-- Poems will render here -->
+      </div>
+
+
+
+    <footer>Butuh versi yang lebih puitis/pendek/nakal? Balas aja — aku bisa edit cepat.</footer>
+  </div>
+
+  <script>
+    // Embedded JSON data (generated)
+    const poemsData = {
+      "language": "id",
+      "recipient": "Meysaa Putri Yulianti",
+      "style": "bucin_lucu_puisi",
+      "generated_at": "2025-09-30",
+      "items": [
+        {"id":1,"title":"HALO SAYANGKU MEYSA PUTRII","text":"SEHAT SELALUU SAYANGG BAHAGIA SELALU JANGAN BOSEN BOSEN SAMAA AKUU YAA SAYAANG KAMU WANITAA HEBAT DANN TANGGUHH SAYANGG LOVE UU SAYAANG.","tone":"lucuu","length":"short","emojis":["📶","💞"]},
+        {"id":2,"title":"makasii","text":"kenapa makasii yaa? karna biar sama samaa teruss ehheheheheh.","tone":"manis","length":"short","emojis":["☕️","😊"]},
+        {"id":3,"title":"EH IYAA ","text":"MAAFIN AKUU YAA SAYANGG KALAUU AKUU BANYAAK NGEBOSENIN NYAA BANYAK MALU MALUIN NYA POKONYAAA MAAAFF SAYAANGG GABISA NGERTIIN KAMUU DI SETIAPP KONDISII MMAAFINN YAAA","tone":"playful","length":"short","emojis":["🔔","💌"]},
+        {"id":4,"title":"File Penting","text":"Kamu file penting; jangan pernah klik delete. Kalau perlu backup, aku siap simpan di dua server: hati & pikiran.","tone":"funny","length":"short","emojis":["🗂️","💓"]},
+        {"id":5,"title":"Langit dan Bintang","text":"Kalau Meysaa bintang, aku rela jadi langitnya — biar setiap malam kamu merasa dekat dan nggak sendirian.","tone":"puitis","length":"medium","emojis":["✨","🌌"]},
+        {"id":6,"title":"Rindu Berlangganan","text":"Langganan rindu: auto renew tiap malam. Pembayaran? Cukup senyum kamu saja, gratis tanpa syarat.","tone":"cute","length":"short","emojis":["💸","😍"]},
+        {"id":7,"title":"Refresh Button","text":"Kamu refresh button-ku — klik sekali, mood crash langsung pulih. Jangan hilang update-anmu ya.","tone":"sweet","length":"short","emojis":["🔄","😊"]},
+        {"id":8,"title":"Peta Hatiku","text":"Gak perlu GPS, cukup pandu aku dengan senyummu. Kapan pun tersesat, cukup sebut namamu dan aku sampai tujuan.","tone":"romantic","length":"short","emojis":["🗺️","❤️"]},
+        {"id":9,"title":"Menu Spesial","text":"Menu spesial hari ini: 100% perhatian untuk Meysaa, bumbu rahasia: candaan receh dan pelukan imajinasi.","tone":"funny_cute","length":"short","emojis":["🍽️","😋"]},
+        {"id":10,"title":"Surat Kecil","text":"eh iyaa nii kalauu kamuu merasaa capee pengen ceritaa ceritaa ke ak dongg jangaann ke orang lainn em oh iyaa kalau kamuu merasa kesusahan dalam kondisi apapunn libatt kann akuu yaaa akuu selaluu adaa untukk muuu meysaaa putriii yuliaatiii","tone":"tender","length":"medium","emojis":["✉️","💖"]}
+      ]
+    };
+
+    // Render poems
+    const listEl = document.getElementById('poemsList');
+    const jsonArea = document.getElementById('jsonArea');
+    const preview = document.getElementById('preview');
+
+    function renderPoems(data){
+      listEl.innerHTML = '';
+      data.items.forEach(item => {
+        const box = document.createElement('div');
+        box.className = 'poem';
+        box.innerHTML = `<h3>${escapeHtml(item.title)}</h3><p>${escapeHtml(item.text)}</p><div class="meta">${item.emojis.join(' ')} · <span class="small">${item.length} · ${item.tone}</span></div>`;
+        listEl.appendChild(box);
+      });
+      jsonArea.value = JSON.stringify(data, null, 2);
+      preview.textContent = data.items[0].text.slice(0,80) + (data.items[0].text.length>80? '...':'');
+    }
+
+    function escapeHtml(s){return String(s).replace(/[&<>"']/g, function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];});}
+
+    renderPoems(poemsData);
+
+    // Download JSON
+    document.getElementById('downloadJson').addEventListener('click', ()=>{
+      const blob = new Blob([JSON.stringify(poemsData, null, 2)], {type:'application/json'});
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a'); a.href = url; a.download = 'puisi-meysaa.json'; document.body.appendChild(a); a.click(); a.remove(); URL.revokeObjectURL(url);
+    });
+
+    // Copy JSON
+    document.getElementById('copyJson').addEventListener('click', ()=>{
+      navigator.clipboard.writeText(JSON.stringify(poemsData, null, 2)).then(()=>{
+        alert('JSON disalin ke clipboard!');
+      }).catch(()=>{ alert('Gagal menyalin — mungkin browser kamu mencegah.'); });
+    });
+
+    // Shuffle poems
+    document.getElementById('shuffle').addEventListener('click', ()=>{
+      const shuffled = {...poemsData, items: [...poemsData.items].sort(()=>Math.random()-0.5)};
+      renderPoems(shuffled);
+    });
+  </script>
+</body>
+</html>
